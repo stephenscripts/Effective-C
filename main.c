@@ -1,7 +1,8 @@
 #include <stdio.h>
+#define EXIT_SUCCESS 0
 
 int main() {
     puts("Hello, Main!\n");
 
-    return 0;
+    return EXIT_SUCCESS;
 }
