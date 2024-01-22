@@ -19,3 +19,6 @@ an operating system and is typically used in embedded programming.
 These implementations provide a minimal set of library functions, and the
 name and type of the function called at program startup are implementation
 defined.**
+
+_**Take care not to pass user-supplied data as part of the first argument to the printf function, because doing so can result in a formatted output security vulnerability (Seacord 2013)_
+

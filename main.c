@@ -1,8 +1,11 @@
 #include <stdio.h>
-#define EXIT_SUCCESS 0
+#include <stdlib.h>
 
-int main() {
-    puts("Hello, Main!\n");
-
+int main(void) {
+    if (puts("Hallo Schatz!") == EOF){
+        return EXIT_FAILURE;
+    }
+    double m = 7.0/3.0;
+    printf("%f", m);
     return EXIT_SUCCESS;
 }
