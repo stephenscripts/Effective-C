@@ -22,3 +22,15 @@ defined.**
 
 _**Take care not to pass user-supplied data as part of the first argument to the printf function, because doing so can result in a formatted output security vulnerability (Seacord 2013)_
 
+It’s common practice to write code for a single reference implementation,
+or sometimes several implementations, depending on which platforms
+you plan to deploy your code. The C Standard is what ensures that these
+implementations don’t differ too much, and allows you to target several at
+once, without having to learn a new language each time.
+Five kinds of portability issues are enumerated in Annex J of the C
+Standard documents:
+• Implementation-defined behavior
+• Unspecified behavior
+• Undefined behavior
+• Locale-specific behavior
+• Common extensions
