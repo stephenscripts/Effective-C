@@ -1,19 +1,7 @@
 # ninja log v5
-28	1024	7275608186092363	CMakeFiles/untitled1.dir/main.c.obj	7d1b7d25eb133f50
-1	1073	7275608186132334	CMakeFiles/untitled1.dir/Hallo.c.obj	4155603062c256ab
-1078	2200	7275608197875750	untitled1.exe	5cdfdced9da9aeb2
-13	745	7275609324749462	CMakeFiles/untitled1.dir/Hallo.c.obj	4155603062c256ab
-91	776	7275609325059269	CMakeFiles/untitled1.dir/main.c.obj	7d1b7d25eb133f50
-777	1191	7275609328987606	untitled1.exe	5cdfdced9da9aeb2
-13	5203	7275863073898286	CMakeFiles/untitled1.dir/main.c.obj	7d1b7d25eb133f50
-5205	6185	7275863084173716	untitled1.exe	5cdfdced9da9aeb2
-8	2127	7276242831467332	CMakeFiles/untitled1.dir/Hallo.c.obj	4155603062c256ab
-2130	3912	7276242849212053	untitled1.exe	5cdfdced9da9aeb2
-9	474	7276243274006431	CMakeFiles/untitled1.dir/main.c.obj	7d1b7d25eb133f50
-476	836	7276243277545991	untitled1.exe	5cdfdced9da9aeb2
-14	481	7276243568594527	CMakeFiles/untitled1.dir/main.c.obj	7d1b7d25eb133f50
-483	884	7276243572363236	untitled1.exe	5cdfdced9da9aeb2
-22	573	7276244368389267	CMakeFiles/untitled1.dir/main.c.obj	7d1b7d25eb133f50
-575	1251	7276244374785304	untitled1.exe	5cdfdced9da9aeb2
 18	374	7276244701127196	CMakeFiles/untitled1.dir/main.c.obj	7d1b7d25eb133f50
 376	757	7276244704798467	untitled1.exe	5cdfdced9da9aeb2
+8	2127	7276242831467332	CMakeFiles/untitled1.dir/Hallo.c.obj	4155603062c256ab
+32	2716	7280073593879512	CMakeFiles/untitled1.dir/Chapter2.c.obj	34aa4a1910925372
+29	586	7280127102941077	CMakeFiles/untitled1.dir/Chapter2.c.obj	34aa4a1910925372
+10	1271	7280127109861178	CMakeFiles/untitled1.dir/main.c.obj	7d1b7d25eb133f50
