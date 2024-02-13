@@ -27,3 +27,7 @@ the referenced type T is called a pointer to T.
 Because objects and functions are different things, object pointers and
 function pointers are also different things, and should not be used 
 interchangeably.
+
+This example program shows a main function with a single code block
+between the { } characters. This kind of code block is also known as a compound
+statement.

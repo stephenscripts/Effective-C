@@ -1,13 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void swap(int a, int b){
-    int t = a;
-    a = b;
-    b = t;
-
-    printf("\nSwap: a = %d, b = %d\n", a, b);
-}
+void swap(int, int);
 
 int main(void) {
     if (puts("Hallo Schatz!") == EOF){
