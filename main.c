@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void swap(int, int);
+void swap(int, int){
+
+}
 
 int main(void) {
     if (puts("Hallo Schatz!") == EOF){
