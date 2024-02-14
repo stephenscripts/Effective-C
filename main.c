@@ -7,10 +7,11 @@ void swap(int a, int b){
     b = t;
 }
 
-void newSwap(int *pa, int *pb){
+void newSwap(int *pa, int *pb, unsigned int x){
     int t = *pa;
     *pa = *pb;
     *pb = t;
+    x = *pb;
 }
 
 int main(void) {
@@ -23,11 +24,11 @@ int main(void) {
     int a = 23, pa = 100;
     int b = 32, pb = 150;
 
-
+    static unsigned int x;
     swap(a, b);
-    newSwap(&pa, &pb);
+    newSwap(&pa, &pb, x);
 
     printf("main: a = %d, b = %d\n", a, b);
-    printf("main: pa = %d, pb = %d\n", pa, pb);
+    printf("main: pa = %d, pb = %d, x = %d\n", pa, pb, x);
     return 0;
 }

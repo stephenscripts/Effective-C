@@ -31,3 +31,10 @@ interchangeably.
 This example program shows a main function with a single code block
 between the { } characters. This kind of code block is also known as a compound
 statement.
+
+If you declare the same identifier in both the inner scope and an outer
+scope, the identifier declared in the outer scope is hidden by the identifier
+within the inner scope, which takes precedence. In this case, naming the
+identifier will refer to the object in the inner scope; the object from the
+outer scope is hidden and cannot be referenced by its name. The easiest
+way to prevent this from becoming a problem is to use different names.
