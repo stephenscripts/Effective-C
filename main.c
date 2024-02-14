@@ -1,8 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void swap(int, int){
+void swap(int a, int b){
+    int t = a;
+    a = b;
+    b = t;
+}
 
+void newSwap(int *pa, int *pb){
+    int t = *pa;
+    *pa = *pb;
+    *pb = t;
 }
 
 int main(void) {
@@ -12,10 +20,14 @@ int main(void) {
     double m = 7.0/3.0;
     printf("%f", m);
 
-    int a = 23;
-    int b = 32;
+    int a = 23, pa = 100;
+    int b = 32, pb = 150;
+
 
     swap(a, b);
+    newSwap(&pa, &pb);
+
     printf("main: a = %d, b = %d\n", a, b);
+    printf("main: pa = %d, pb = %d\n", pa, pb);
     return 0;
 }
