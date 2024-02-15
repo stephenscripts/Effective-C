@@ -38,3 +38,14 @@ within the inner scope, which takes precedence. In this case, naming the
 identifier will refer to the object in the inner scope; the object from the
 outer scope is hidden and cannot be referenced by its name. The easiest
 way to prevent this from becoming a problem is to use different names.
+
+Static objects must be initialized with a constant value and not a
+variable:
+int *func(int i) {
+const int j = i; // ok
+static int k = j; // error
+return &k;
+}
+A constant value refers to literal constants (for example, 1, 'a', or 0xFF),
+enum members, and the results of operators such as alignof or sizeof; not
+const-qualified objects.
