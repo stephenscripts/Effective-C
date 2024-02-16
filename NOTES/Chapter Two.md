@@ -14,7 +14,7 @@ particular type.” A variable is an example of an object.
 
 ### What is a Function
 Functions are not objects but do have types. 
-A function type is characterized by both its return type 
+A function type is characterized by its return type 
 as well as the number and types of its parameters.
 
 ### What is a Pointer
@@ -49,3 +49,10 @@ return &k;
 A constant value refers to literal constants (for example, 1, 'a', or 0xFF),
 enum members, and the results of operators such as alignof or sizeof; not
 const-qualified objects.
+
+Object types have alignment requirements that place restrictions on the
+addresses at which objects of that type may be allocated. An alignment represents
+the number of bytes between successive addresses at which a given
+object can be allocated. CPUs may have different behavior when accessing
+aligned data (for example, the data address is a multiple of the data size)
+versus unaligned data.
