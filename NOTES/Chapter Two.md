@@ -66,3 +66,9 @@ For each signed integer type, there is a corresponding unsigned integer
 type that uses the same amount of storage: unsigned char, unsigned short int,
 unsigned int, unsigned long int, and unsigned long long int. The unsigned
 types can be used to represent only positive numbers and zero.
+
+An enumeration, or enum, allows you to define a type that assigns names (enumerators)
+to integer values in cases with an enumerable set of constant values.
+The following are examples of enumerations:
+
+enum weekdays {Sun, Mon, Tues, Weds, Thurs, Fri, Sat};

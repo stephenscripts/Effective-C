@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <limits.h>
+#include <inttypes.h>
 
 void swap(int a, int b){
     int t = a;
@@ -11,6 +13,12 @@ void newSwap(int *pa, int *pb){
     int t = *pa;
     *pa = *pb;
     *pb = t;
+    //malloc(230);
+    //uintmax_t;
+    //intmax_t;
+    enum weekdays {Sun, Mon, Tues, Weds, Thurs, Fri, Sat};
+    enum cardinal_points { north = 0, east = 90, south = 180, west = 270 };
+    enum months { jan = 1, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec };
 }
 
 void increment(void){
