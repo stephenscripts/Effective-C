@@ -56,3 +56,13 @@ the number of bytes between successive addresses at which a given
 object can be allocated. CPUs may have different behavior when accessing
 aligned data (for example, the data address is a multiple of the data size)
 versus unaligned data.
+
+### Integer Types
+Signed integer types can be used to represent negative numbers, positive numbers,
+and zero. The signed integer types include signed char, short int, int,
+long int, and long long int.
+
+For each signed integer type, there is a corresponding unsigned integer
+type that uses the same amount of storage: unsigned char, unsigned short int,
+unsigned int, unsigned long int, and unsigned long long int. The unsigned
+types can be used to represent only positive numbers and zero.
