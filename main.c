@@ -19,6 +19,7 @@ void newSwap(int *pa, int *pb){
     enum weekdays {Sun, Mon, Tues, Weds, Thurs, Fri, Sat};
     enum cardinal_points { north = 0, east = 90, south = 180, west = 270 };
     enum months { jan = 1, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec };
+    printf("%d");
 }
 
 void increment(void){
