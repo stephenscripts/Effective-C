@@ -99,3 +99,10 @@ You should never declare functions with an empty parameter list in C.
 First, this is a deprecated feature of the language that may be removed in the 
 future. Second, the code could be ported to C++, so explicitly list parameter types and use
 void when there are no parameters.
+
+void xFunc(int x, struct y); // This is a Function Prototype because it has a blueprint of what is acceptable to the function
+
+Derived types are types that are constructed from other types. These include
+pointers, arrays, type definitions, structures, and unions, all of which we’ll
+cover here.
+
