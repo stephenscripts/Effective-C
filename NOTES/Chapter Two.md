@@ -79,3 +79,23 @@ Floating-Point Types
 The C language supports three floating-point types: float, double, and long double.
 Floating-point arithmetic is similar to, and often used as a model for, the
 arithmetic of real numbers.
+
+### Function Type (void Types)
+The void type is a rather strange type. The keyword void (by itself) means
+“cannot hold any value.” For example, you can use it to indicate that a
+function doesn’t return a value, or as the sole parameter of a function to
+indicate that the function takes no arguments. On the other hand, the
+derived type void * means that the pointer can reference any object.
+int f(void); //with no parameters that returns an int.
+int *fip(); // no specified parameters that returns a pointer to an int.
+functions, g and h, each returning void and taking two parameters of type int.
+void g(int i, int j);
+void h(int, int);
+
+providing parameter Objects, Functions, and Types 25 names is good practice for self-documenting code, so omitting the identifiers
+(as done with h) is not typically recommended.
+
+You should never declare functions with an empty parameter list in C. 
+First, this is a deprecated feature of the language that may be removed in the 
+future. Second, the code could be ported to C++, so explicitly list parameter types and use
+void when there are no parameters.
