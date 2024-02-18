@@ -72,3 +72,10 @@ to integer values in cases with an enumerable set of constant values.
 The following are examples of enumerations:
 
 enum weekdays {Sun, Mon, Tues, Weds, Thurs, Fri, Sat};
+enum cardinal_points { north = 0, east = 90, south = 180, west = 270 };
+enum months { jan = 1, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec };
+
+Floating-Point Types
+The C language supports three floating-point types: float, double, and long double.
+Floating-point arithmetic is similar to, and often used as a model for, the
+arithmetic of real numbers.
