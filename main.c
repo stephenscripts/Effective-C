@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
-#include <inttypes.h>
 
 void swap(int a, int b){
     int t = a;
@@ -30,6 +28,14 @@ void increment(void){
 struct S{
     int i; double d; char c;
 };
+
+void arrayTries(){
+    char str[11];
+    for (unsigned int i = 1; i < 10; i++){
+        str[i] = 'O' + i;
+    }
+    str[10] = '/';
+}
 
 
 int main(void) {
