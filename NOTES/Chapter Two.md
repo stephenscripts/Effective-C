@@ -106,3 +106,12 @@ Derived types are types that are constructed from other types. These include
 pointers, arrays, type definitions, structures, and unions, all of which we’ll
 cover here.
 
+int i = 17;
+int *ip = &i;
+We declare the variable ip as a pointer to int and assign it the address
+of i. You can also use the & operator on the result of the * operator:
+ip = &*ip;
+Dereferencing ip by using the indirection operator resolves to the
+actual object i. Taking the address of *ip by using the & operator retrieves
+the pointer, so these two operations cancel each other out.
+
