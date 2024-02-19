@@ -115,3 +115,9 @@ Dereferencing ip by using the indirection operator resolves to the
 actual object i. Taking the address of *ip by using the & operator retrieves
 the pointer, so these two operations cancel each other out.
 
+The unary * operator converts a pointer to a type into a value of that
+type. It denotes indirection and operates only on pointers. If the operand
+points to a function, the result of using the * operator is the function designator,
+and if it points to an object, the result is a value of the designated
+object.
+
