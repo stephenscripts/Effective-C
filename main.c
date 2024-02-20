@@ -33,8 +33,9 @@ void arrayTries(){
     char str[11];
     for (unsigned int i = 1; i < 10; i++){
         str[i] = 'O' + i;
+        //printf("/%d", str[1]);
     }
-    str[10] = '/';
+    //str[10] = '/0';
 }
 
 
@@ -56,7 +57,7 @@ int main(void) {
 
     swap(a, b);
     newSwap(&pa, &pb);
-
+    arrayTries();
     printf("main: a = %d, b = %d\n", a, b);
     printf("main: pa = %d, pb = %d\n", pa, pb);
 
