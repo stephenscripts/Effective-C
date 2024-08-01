@@ -69,7 +69,7 @@ int main(void) {
     arrayTries();
     //printf("main: a = %d, b = %d\n", a, b);
     //printf("main: pa = %d, pb = %d\n", pa, pb);
-    printf("permutation: %d", kp);
+    printf("permutation:  = %d", kp);
 
     for(int i = 0; i < 5; i++){
         increment();
