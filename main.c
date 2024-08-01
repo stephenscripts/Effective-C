@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "Hallo.c"
 
 void swap(int a, int b){
     int t = a;
@@ -8,6 +9,7 @@ void swap(int a, int b){
 }
 
 void newSwap(int *pa, int *pb){
+    int y = Square(54);
     int t = *pa;
     *pa = *pb;
     *pb = t;
