@@ -40,6 +40,13 @@ void arrayTries(){
     //str[10] = '/0';
 }
 
+int permutation(int x){
+    int y = 0;
+    while(x-1 > 0){
+        y = y + (x * (x-1));
+    }
+    return y;
+}
 
 int main(void) {
     unsigned char bad_buff[sizeof(struct S)];
@@ -48,20 +55,21 @@ int main(void) {
     struct S *bad_s_ptr = (struct S *)bad_buff;
     struct S *good_s_ptr = (struct S *)good_buff;
 
-    if (puts("Hallo Schatz!") == EOF){
-        return EXIT_FAILURE;
-    }
+//    if (puts("Hallo Schatz!") == EOF){
+//        return EXIT_FAILURE;
+//    }
     double m = 7.0/3.0;
-    printf("%f", m);
+    //printf("%f", m);
 
     int a = 23, pa = 100;
     int b = 32, pb = 150;
-
+    int kp = permutation(10);
     swap(a, b);
     newSwap(&pa, &pb);
     arrayTries();
-    printf("main: a = %d, b = %d\n", a, b);
-    printf("main: pa = %d, pb = %d\n", pa, pb);
+    //printf("main: a = %d, b = %d\n", a, b);
+    //printf("main: pa = %d, pb = %d\n", pa, pb);
+    printf("permutation: %d", kp);
 
     for(int i = 0; i < 5; i++){
         increment();
